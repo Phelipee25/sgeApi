@@ -1,0 +1,25 @@
+{
+  "name": "sgeapi",
+  "version": "1.0.0",
+  "description": "projeto de gerenciamento de estoque",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phelipee25/sgeApi.git"
+  },
+  "author": "PH Mazzolli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Phelipee25/sgeApi/issues"
+  },
+  "homepage": "https://github.com/Phelipee25/sgeApi#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.26",
+    "nodemon": "^2.0.4"
+  }
+}
